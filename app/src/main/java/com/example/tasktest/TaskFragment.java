@@ -28,8 +28,8 @@ public class TaskFragment extends Fragment {
     }
 
     private void findView(View view) {
-        mTabLayout = (TabLayout) view.findViewById(R.id.tl_tab);
-        mViewPager = (ViewPager) view.findViewById(R.id.vp_today_task);
+        mTabLayout = (TabLayout) view.findViewById(R.id.tl_task);
+        mViewPager = (ViewPager) view.findViewById(R.id.vp_task);
     }
 
     private void initTab() {

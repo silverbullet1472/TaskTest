@@ -42,7 +42,7 @@
     </RelativeLayout>
 
     <android.support.design.widget.TabLayout
-        android:id="@+id/tl_tab"
+        android:id="@+id/tl_task"
         android:layout_width="match_parent"
         android:layout_height="36dp"
         android:background="@color/colorWhite"
@@ -53,7 +53,7 @@
     </android.support.design.widget.TabLayout>
 
     <android.support.v4.view.ViewPager
-        android:id="@+id/vp_today_task"
+        android:id="@+id/vp_task"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
     </android.support.v4.view.ViewPager>
